@@ -1,14 +1,3 @@
-/*Body
-Pick a nice background-color, font-family, color, font-size and line-height for the <body>. *Setting these font rules at the body-level will apply them on all basic text tags * (<p>, <li>, etc.).
-
-Headers
-Choose a nice color and font-family for headers (<h1>, <h2>, <h3>)
-Choose harmonious font-size and line-height for headers
-Hint: small headers are more elegant. If you check out any website (Medium, Airbnb, etc.), you'll see that the font-size of their headers is quite small.
-Links
-Change the color & text-decoration of all the links
-Add hover effects to links using the pseudo-class a:hover.*/
-
 body {
     background: #F2F2F2;
     font-family: 'Open Sans', sans-serif;
@@ -42,19 +31,20 @@ text-decoration: underline;
   text-align: center;
   margin: 30px auto;
   margin-bottom: 10px;
+    width: 900px;
 }
 
 .card {
+  /*display: inline-block;*/
   /*display: inline-block;*/
   background: white;
   padding: 5px;
   margin-bottom: 5px;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-  width: 700px;
+
   margin: 0 auto;
   margin-top: 2px;
-
   border-radius: 5px;
 }
 
@@ -66,7 +56,6 @@ text-decoration: underline;
   padding: 10px;
   margin: 0 auto;
 /*  margin-bottom: 5px;*/
-/*  margin-bottom: 5px;*/
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
   width: 700px;
@@ -74,8 +63,8 @@ text-decoration: underline;
 }
 
 #img-profile {
-    width: 85px;
-    height: 105px;
+    width: 185px;
+    height: 295px;
     border: 3px solid #cccccc;
 }
 
@@ -90,4 +79,8 @@ text-decoration: underline;
 
 .list-inline {
   padding-left: 0px;
+}
+
+.pic {
+  border-radius: 5px;
 }
